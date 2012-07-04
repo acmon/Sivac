@@ -1,0 +1,4 @@
+Sivac
+=====
+
+ Descrição:  O SIVAC é um sistema on-line de vacinação para registrar e monitorar a aplicação de vacinas no país. A partir das aplicações lançadas individualmente, o SIVAC gera dados estatísticos precisos, identifica os indivíduos faltosos e gerencia as campanhas e rotinas de vacinação por imunobiológico. O sistema permite também controlar os estoques de vacinas, analisar as informações das diversas unidades de saúde responsáveis pela aplicação e disponibilizar uma caderneta de vacinação eletrônica.   Características técnicas:  Sistemas operacionais: Linux, Windows e MAC OS Navegadores: IE, FIREFOX, CHROME, SAFARI e OPERA. Linguagem de Programação: Sistema Orientado a Objetos com linguagens de programação PHP e JAVASCRIPT, com CSS, HTML em conjunto ao AJAX. Banco de Dados: MYSQL 
