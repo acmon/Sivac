@@ -1,0 +1,739 @@
+/*{border: 1px solid green;}
+/* -------------- Pagina --------------*/
+body {
+	font-size: 12px;
+	background-color: #3a647c;
+	background-image: url(../Imagens/fundo.jpg);
+	background-repeat:repeat-x;
+	font-family:verdana,arial,sans-serif;
+	color:#003367;
+	margin-top: 2px;
+	margin-left: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #003265;
+	font-family: arial, helvetica, sans-serif;
+}
+
+img {
+	vertical-align: middle;	
+}
+
+blockquote {
+	color:#336699;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: justify;
+	background-color: #eaeff3;
+	padding: 5px;
+	border-top: 3px double #b8c8d9;;
+	border-bottom: 3px double #b8c8d9;;
+}
+.campoFormulario {
+	color: #3366CC;
+}
+.nomeSivacAjuda {
+	color: #3366CC;
+	font-weight:bold;
+	letter-spacing: 2px;
+}
+
+.paginacao {
+	position: fixed;
+	margin-left: 0px;
+	top: 460px;
+	color: white;
+	background: url(../Imagens/paginacao.png) no-repeat;
+	font-size: 9px;
+	text-align: center;
+	width: 85px;
+	height: 50px;
+	visibility: visible;
+	z-index: 1001;
+}
+/************** ABAS ****************/
+.aba {
+    position: absolute;
+	width: 670px;
+    height: 230px;
+	left: 100px;
+}
+
+.abaCadastro {
+    position: absolute;
+	width: 670px;
+    height: 420px;
+  	left: 100px;
+}
+
+#aba1 {
+    background: url(../Imagens/fundoBuscaConteudoAbaBasico.jpg) repeat-x;
+}
+#aba2 {
+    background: url(../Imagens/fundoBuscaConteudoAbaAvancado.jpg) repeat-x;
+}
+
+#container {
+	height: 250px;
+}
+
+#containerCadastro {
+	height: 250px;
+}
+
+#containerCadastro img {
+    cursor: pointer;
+}
+
+#container img {
+    cursor: pointer;
+}
+
+.containerInformacao {
+    position: absolute;
+    clear:both;
+    right: 0px;
+    top: 450px;
+    color: navy;
+    border: 2px solid #a0dbff;
+    background: url(../Imagens/fundoSemitransparente1pxInformacoes.png);
+    text-align: justify;
+    width: 320px;
+    visibility: hidden;
+    z-index: 999;
+}
+
+
+.tituloInformacao {
+    height: 12px;
+    text-align: left;
+    background: url(../Imagens/fecharInformacoes.jpg) no-repeat top right;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.corpoInformacao {
+    margin: 2px;
+    border: 1px solid #fff;
+    padding: 5px;
+    cursor: default;
+}
+
+
+/************** ABAS *****************/
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 10px;
+}
+
+.listaRelatorio {
+
+	line-height: 30px;	
+}
+
+#listagem {
+	
+	/*border: 1px dashed #22BBEE;
+	background-color: #99DDEE;*/
+	
+}
+
+#curvaTopoEsquerdo {
+	position: absolute;
+	background-image: url(../Imagens/curvaTopoEsquerdo.png);
+	width: 19px;
+	height: 23px;
+	z-index: 2;
+}
+
+#paginaToda {
+	clear:both;
+	margin: auto;
+	width:1000px;
+	display:table;
+	background-color: white;
+	visibility: hidden;  /*???????*/
+}
+
+#paginaToda2 {
+	clear:both;
+	margin: auto;
+	width:756px;
+	display:table;
+	visibility: hidden;  /*???????*/
+}
+
+#textoInicial {
+	margin: auto;
+	margin-bottom: 20px;
+	/*background: #EEF;*/
+	text-align: justify;
+	padding: 10px;
+	font-family:verdana,arial,sans-serif;
+	line-height: 1.5em;
+	/*border: solid 2px #EEE;*/
+
+}
+#topo {
+	position:relative;
+	width:1000px;
+	height:100px;
+}
+#relatorio {
+	width: 1000px;
+	margin:auto;
+	padding: 10px;
+	padding-bottom: 60px;
+	background-image: url(../Imagens/rodapeRelatorios.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#cabecalhoRelatorioEsq {
+	width: 788px;
+	margin: auto;
+	background-image: url(../Imagens/cabecalhoRelatorioEsq.jpg);
+	height: 68px;
+}
+
+#botaoImprimirRelatorio {
+	float: right;
+	width: 49px;
+	height: 42px;
+	background-image: url(../Imagens/imprimirRelatorio.png);
+}
+
+#botaoFecharRelatorio {
+	float: right;
+	width: 44px;
+	height: 42px;
+	background-image: url(../Imagens/fecharRelatorio.png);
+}
+
+#timbradoRelatorio {
+        position: relative;
+        display: table;
+	background: url(../Imagens/fundoCabecalhoTopo.jpg) top center no-repeat;
+        background-color: white;
+	width: 670px;
+	height: 80px;
+	margin: auto;
+	padding: 25px;
+}
+
+#timbradoRelatorioIe7 {
+        position: relative;
+        display: table;
+	background: url(../Imagens/fundoCabecalhoTopo.jpg) top center no-repeat;
+        background-color: white;
+	width: 670px;
+	height: 80px;
+	margin: auto;
+        margin-bottom: 160px;
+	padding: 25px;
+}
+
+#rodapeTimbrado {
+	background: url(../Imagens/fundoCabecalhoBaixo.jpg) bottom center no-repeat;
+        background-color: white;
+	width: 670px;
+	float: left;
+}
+
+#textoRodapeTimbrado {
+	width: 605px;
+        text-align: center;
+        color: #4c3521;
+	font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+        font-size: 12px;
+	float: left;
+	padding: 30px;
+	padding-top: 10px;
+}
+
+#tituloRelatorioTimbrado {
+        text-align: center;
+        color: #4c3521;
+	font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#totalDeRegistrosEncontrados {
+    clear: both;
+    text-align: right;
+    display: table;
+    float: right;
+    width: auto;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    margin-right: 65px;
+    margin-bottom: 5px;
+    padding: 3px;
+    color: #4c3521;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#textoTimbrado {
+    float: left;
+    width: 500px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#prefeituraTimbrado {
+	font-size: 18px;
+	width: 500px;
+	margin-bottom: 8px;
+}
+
+#secretariaTimbrado {
+	font-size: 16px;
+}
+
+#orgaoTimbrado {
+	font-size: 14px;
+}
+#logoTimbrado {
+	float: left;
+	width: 110px;
+	height: 30px;
+	text-align: right;
+	font-size: xx-small;
+	color: #89f;
+}
+
+#corpo{
+	position:relative;
+	width:1000px;
+}
+
+#conteudoDaPagina{
+	position:relative;
+	background-image: url(../Imagens/curvaCimaMenu.jpg);
+	background-repeat: no-repeat;
+	float:left;
+	clear:right;
+	width:828px;
+	min-height: 350px;
+	padding-left:18px;
+	padding-bottom:10px;
+	padding-top:62px;
+	padding-right:18px;
+}
+
+#informacoesDoAdministrador {
+	margin: 5px;
+	margin-top: 60px;
+	border: 1px dotted #dde;
+	color: #003d69;
+	text-align: center;
+	font-size: xx-small;
+	width: 100px;
+	padding: 5px;
+		
+}
+
+#ok {
+	visibility: hidden;
+	float: left;
+	width: 20px;
+	height: 30px;
+	vertical-align: middle;
+	background-image: url(../gerarIcone.php?imagem=ok);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#cabecalhoPopUps {
+	width: 242px;
+	height: 42px;
+	clear: both;
+	background-image: url(../Imagens/logoTopoPopUps.jpg);
+	background-repeat: no-repeat;
+}
+
+#conteudoPopUps {
+	position:relative;
+	background-image: url(../Imagens/topoPopUp.png);
+	background-repeat: no-repeat;
+	background-color:#FFF;
+	float: right;
+	width:100%;
+	visibility: hidden; /*????????*/
+}
+
+#cabecalhoAjuda {
+	height: 32px;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-size: 24px;
+	color: #FFF;
+	text-align: right;
+	clear: both;
+	background-image: url(../Imagens/logoTopoPopUps.jpg);
+	background-repeat: no-repeat;
+}
+
+#conteudoAjuda {
+	position:relative;
+	background-image: url(../Imagens/topoPopUp.png);
+	background-repeat: no-repeat;
+	background-color:#FFF;
+	float: right;
+	width:100%;
+	min-width: 960px;
+	visibility: hidden; /*??????*/
+}
+
+#cabecalhoRelatorio {
+	width: 776px;
+	height: 42px;
+	clear: both;
+	margin: auto;
+	text-align:right;
+	background-image: url(../Imagens/logoTopoPopUps.jpg);
+	background-repeat: no-repeat;
+}
+
+#conteudoRelatorio {
+	position:relative;
+	padding-top: 80px; 
+	background-image: url(../Imagens/topoRelatorio.jpg);
+	background-repeat: no-repeat;
+	background-color:#FFF;
+	width:776px;
+	margin: auto;
+	visibility: hidden; /*??????????*/
+}
+
+
+#rodapeRelatorio {
+	float:left;
+	background-color:#3a647c;
+	width:776px;
+	height:60px;
+	padding-bottom: 5px;
+	background-image: url(../Imagens/rodapeRelatorio.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+#rodape{
+	float:left;
+	background-color:#f4f8f8;
+	width:1000px;
+	height:12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url(../Imagens/curvaRodapeDireito.png);
+	background-position: right;
+	background-repeat: no-repeat;	
+}
+
+#TextoRodape{
+	font-size: 9px;
+}
+#TextoExemplos {
+
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #CCCCCC; 
+}
+#Dicas {
+	margin: auto;
+	width:550px;
+	margin-bottom: 20px;
+	background: #f4f8f8;
+	text-align: justify;
+	padding: 10px;
+	font-family:verdana,arial,sans-serif;
+	line-height: 2.0em;
+	border: solid 1px #EEE;
+}
+
+#desconectar{
+	background-image: url(../Imagens/sair1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	position:absolute;
+	margin-top:72px;
+	padding-right: 10px;
+	color: #003d69;
+	font-size: xx-small;
+	text-align: right;
+	width: 276px;
+	height: 25px;
+	right:0px;
+	top: 0px;
+	padding-top:8px;
+}
+
+#icones {
+	position:absolute;
+	text-align: right;
+	width: 700px;
+	height: 55px;
+	right:5px;
+	top: 5px;
+
+}
+
+.ajuda ul, .ajuda li a, .ajuda li a:visited{
+	color: #FFF;
+	line-height: 25px;
+}
+.ajuda ul, .ajuda li a:hover{
+	color: #BFF;
+	
+}
+
+.ajuda ul li {
+	line-height: 20px;
+}
+
+.ajuda ul li a, .ajuda ul li a:visited{
+	line-height: 20px;
+	color: #FFF;
+}
+
+.ajuda ul li a:hover {
+	color: #BFF;
+}
+
+.conjuntoConfiguracao {
+	width: 450px;
+	margin: auto;
+	background-image: url(../gerarIcone.php?imagem=fundoLegenda);
+	background-position: center center;
+	background-repeat: repeat-y;
+}
+
+.vacinacaoCompleta {
+	color: green;	
+}
+
+.vacinacaoIncompleta {
+	color: blue;	
+}
+
+.naoVacinado {
+	color: red;	
+}
+
+
+.participouDaCampanha {
+	color: purple;
+}
+
+.faltaReforco {
+    color: olive;
+}
+
+.paginaInicial {
+	width: 378px;
+	float: left;
+	height: 124px;
+	margin: auto;
+	/* background-image: (declarada inline)*/
+}
+
+.CadastroEsq {
+	float:left;
+	clear:left;
+	width:250px;
+	text-align:right;
+	margin:5px;
+	padding-top: 3px;
+}
+
+.CadastroDir {
+	float:left;
+	margin:5px;
+}
+
+.barraDeTituloMsgErro {
+    height: 12px;
+    text-align: left;
+    background: url(../Imagens/fecharMensagens.jpg) no-repeat top right;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: maroon;
+    cursor: pointer;
+}
+
+.corpoMsgErro {
+    margin: 3px;
+    border: 1px solid #ffe4d3;
+    padding: 20px;
+    padding-bottom: 15px;
+    cursor: default;
+}
+
+.msgErro {
+	position: fixed;
+	clear:both;
+	left: 40%;
+	top: 200px;
+	color: navy;
+	border: 2px solid #f8b080;
+	background: url(../Imagens/fundoSemitransparente1pxMensagens.png); 
+	/* background: #EEF url(../Imagens/fecharMensagens.jpg) no-repeat top right; */
+	text-align: justify;
+	width: 400px;
+	visibility: hidden;
+	z-index: 1000;
+}
+.ContatoDir {
+	float:left;
+	margin:5px;
+}
+.ContatoEsq {
+	float:left;
+	clear:left;
+	width:150px;
+	text-align:right;
+	margin:5px;
+	padding-top: 3px;
+}
+
+.Login {
+	position:relative;
+	background-image: url(../Imagens/sivacLogin.jpg);
+	background-repeat: no-repeat;
+	width:200px;
+	height:141px;
+	padding-top:18px;
+	padding-right:80px;
+	text-align: right;
+	margin: auto;
+	top:20px;
+	color:#FFFFFE;
+}
+.Links{
+	font-weight:normal;
+	color: #BB3333;	
+}
+
+.Links:hover{
+	font-weight:bold;
+	color:#000000;
+}
+.mensagens{
+	color:#FF0000;
+	font-weight:bold;
+}
+
+#menuLateralEsquerdo {
+	background-image: url(../Imagens/menuLateral.jpg);
+	background-repeat: no-repeat;
+	position:relative;
+	padding-top: 20px;
+	float:left;
+	clear:right;
+	width:130px;
+	height: 320px;
+	z-index:5;
+}
+
+#pesquisaAjuda {
+	width: 233px;
+	height: 23px;
+	padding: 10px;
+	padding-right: 0px;
+	text-align: left;
+	font-size: xx-small;
+	background-image: url(../Imagens/okPesquisarAjuda.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#menuLateralAjuda {
+	/*background-image: url(../Imagens/fundoMenuAjuda.png);
+	background-repeat: repeat-x;*/
+	background-color: #3a647c;
+	position:relative;
+	padding-top: 20px;
+	float:left;
+	clear:right;
+	color: #cae1f5;
+	width:275px;
+	z-index:5;
+}
+
+#curvaAjuda {
+	float: left;
+	width: 16px;
+	height: 22px;
+	background-image: url(../Imagens/topoPopUp.png);
+	background-repeat: no-repeat;
+}
+
+#textoAjuda {
+	padding: 25px;
+	padding-left: 300px;
+	text-align: justify;
+	background-image: url(../Imagens/fundoEsqTextoAjuda.gif);
+	background-repeat: repeat-y;
+}
+
+a:link {
+	text-decoration: none;
+	color:#14E;
+	
+}
+a:visited {
+	text-decoration: none;
+	color:#14E;
+
+}
+a:hover {
+	text-decoration: none;
+	color:#f00;
+}
+a:active {
+	text-decoration: none;
+	color:#14E;	
+}
+
+.spanBranco {
+	color:#003d69;
+}
+
+.spanBranco:hover{
+	color:#f00;
+}
+
+.spanAmarelo {
+	color:#0FE;
+}
+
+.spanAmarelo:hover{
+	color:#CCFF23;
+}

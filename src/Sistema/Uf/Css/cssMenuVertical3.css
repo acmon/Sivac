@@ -1,0 +1,87 @@
+
+.menuVertical { 
+	display: table; 
+}
+
+.menuVertical * { 
+	margin: 0; 
+	padding: 0;
+	font-family: Helvetica, Geneva, Arial;
+    font-size:small;
+	padding-top:3px;
+	padding-bottom:3px;
+	color:#cccccc;
+	width: 125px;
+}
+
+.menuVertical a { 
+	display: block; 
+}
+
+.menuVertical li { 
+	list-style: none;  
+	height: 20px;
+    position:relative;
+}
+
+.menuVertical li ul { 
+	position: absolute; 
+	visibility: hidden;
+	left: 120px;
+    top: 0px;
+	background: url("../Imagens/fundoMenuSubmenu.png");
+}
+
+.menuVertical li:hover ul, .menuVertical  li.over ul { 
+	visibility: visible;
+}
+
+.menuVertical li:hover ul li ul, .menuVertical li.over ul li ul{ 
+	visibility: hidden;
+}
+
+.menuVertical li ul li:hover ul, .menuVertical li ul li.over ul{ 
+	visibility: visible;
+}
+
+.menuVertical { 
+	width: 128px; 
+	height: 200px;
+}
+
+.menuVertical a { 
+	text-decoration: none; 
+	color:#ffffff;
+	padding: 0 10px; 
+	line-height: 20px;
+	width: 100px;
+	height: 21px;
+}
+
+.menuVertical a:hover { 
+	text-decoration: none; 
+	font-weight: bold;
+	width: 95px;
+	height: 20px;
+	border-left: 3px double white;
+	border-bottom:1px dashed white;
+    color: white; 
+}
+
+.menuVertical li ul li a {
+    display: block;
+}
+
+.menuVertical a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.comtic a {
+	background: url("../Imagens/tic.png") no-repeat right;
+	margin-right: 10px;
+}
+
+.semtic a {
+	background: none;
+}

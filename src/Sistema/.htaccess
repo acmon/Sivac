@@ -1,0 +1,11 @@
+<Files "*.txt">
+    Deny from all
+</Files>
+
+
+
+SetEnv HOST_SIVAC "localhost"
+SetEnv BD_SIVAC    "sivac_estados"
+SetEnv USER_SIVAC  "root"
+SetEnv PASS_SIVAC  "ippes"
+SetEnv PORT_SIVAC  "3306"

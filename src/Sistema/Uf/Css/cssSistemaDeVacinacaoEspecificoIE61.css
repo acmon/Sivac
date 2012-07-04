@@ -1,0 +1,26 @@
+@import url(./cssSistemaDeVacinacao.css);
+
+html, body {
+	position: absolute;
+	margin: 0px;
+	overflow: auto;
+	height: 180px;
+	width:206px;
+}
+
+.msgErro {
+	position: absolute;
+}
+
+.paginacao {
+
+	background: url(../Imagens/paginacaoIe6.png) no-repeat;
+}
+
+.paginaInicial {
+	width: 206px;
+	float: left;
+	height: 189px;
+	margin: auto;
+	/* background-image: (declarada inline)*/
+}
